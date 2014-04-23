@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family:Couture, Helvetica, sans-serif
+    font-family:Open Sans, Helvetica, Futrura, sans-serif
 }
 
 .nav-top {
@@ -75,7 +75,7 @@ article {
 }
 
 h1 {
-    font-family:'Nexa-XBold', Couture, Coolvetica, Revolution, Futura, Sans-Serif;
+    font-family:Courture, Open Sans, Helvetica, Futura, Sans-Serif;
     font-weight:normal;
     line-height:2.5rem;
     color: white;
@@ -198,7 +198,7 @@ li {
 
 .bucket3 {
     overflow: hidden;
-    margin: 0 0 1.5rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -214,4 +214,17 @@ li {
     width: 50%;
     margin: 0;
     padding: 1rem;
+}
+
+details {
+    font-size: 1.5rem;
+    background-color: maroon;
+    margin: 0 0 1.5rem 0;
+    padding: .2rem;
+    color: white;
+}
+
+details li {
+    color: white;
+    margin: 0 0 .5rem 0;
 }
