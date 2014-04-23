@@ -45,7 +45,7 @@ html {
 	margin: ;
 	padding: 1rem 10%;
 	color: maroon;
-	font-size: 1.8rem; 
+	font-size: 1.5rem; 
 	text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ h1 {
     line-height:2.5rem;
     color: white;
     font-size: 3rem;
-    margin: .5rem 0;
+    margin: .3rem 0 0 0;
     line-height: 2.5rem;
     padding: 0 2.5%;
     font-kerning:auto;
