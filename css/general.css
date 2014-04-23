@@ -22,16 +22,40 @@ html {
     font-family:Couture, Helvetica, sans-serif
 }
 
-figcaption {
+.nav-top {
     background-color: white;
 }
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+	text-align: center;	
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline; 
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	display: inline-block;
+	margin: ;
+	padding: 1rem 10%;
+	color: maroon;
+	font-size: 1.8rem; 
+	text-decoration: none;
+}
+
 
 img {
     overflow: hidden;
 	width: 100%;
     display: block;
     border-style: solid;
-    border-color: DodgerBlue;
+    border-color: Maroon;
     border-bottom-width:.5rem;
     height: auto;
 }
@@ -54,30 +78,32 @@ h1 {
     font-family:'Nexa-XBold', Couture, Coolvetica, Revolution, Futura, Sans-Serif;
     font-weight:normal;
     line-height:2.5rem;
-    margin:2rem 0;
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: .5rem 0;
     line-height: 2.5rem;
     padding: 0 2.5%;
     font-kerning:auto;
+    position: absolute;
+    top: .6rem;
+    left: 7rem
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #1A1A1A;
+    background-color:white;
 }
 
 .masthead {
-    background-color: DodgerBlue;
+    background-color: Maroon;
     overflow: hidden;
 }
 
 .logo {
-    height: 14rem;
+    height: 7rem;
     width: auto;
-    margin:2rem 3rem;
+    margin: 1rem .5rem .5rem 1rem;
     border-style: none;
 }
 
@@ -87,61 +113,82 @@ article {
     overflow: hidden;
 }
 
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/triforce.jpg);
+    background-color: maroon;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40rem;
+}
+
 h2 {
-    font-size: 1rem;
+    margin: 5rem 0 1.5rem 0;
+    background-color: rgba(211, 0, 0, 0.64);
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: -.1rem;
+    padding: .25rem 5%;
     font-weight: normal;
     font-family: futura, arial, sans-serif;
     color: white;
-    padding: 0 6%;
+}
+
+figure {
+    background-color: maroon;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    
+}
+
+figcaption {
+    background-color: maroon;
+    color: white;
+    font-size: 1rem;
 }
 
 p {
     line-height: 1.5rem;
-    margin: 0 0 2.5rem;
+    margin: 0 .5rem 1.5rem;
     font-family: futura, arial, sans-serif;
-    color: white;
-    padding: 0 6%;
-}
-
-.dropcap:first-letter {
-    font-size:7rem;
-    font-weight:bold;
-    font-family: revolution, courture, helvetica, sans-serif;
-    float:left;
-    margin:2rem .1rem 3rem 0;
-    color:DodgerBlue
-}
-
-details {
-    margin:0 1.5rem 1.5rem;
-    color: white;
+    color: black;
+    padding: 0;
+    font-size: 1rem
 }
 
 h3 {
    line-height: 1.5rem;
     margin: 0 0 0rem;
     font-family: futura, arial, sans-serif;
-    color: DodgerBlue;
-    padding: 0 6%; 
-    text-shadow:.15rem .15rem .05rem rgba(0, 0, 0, .4)
+    color: Maroon;
+    padding: 0 6%;
 }
 
 footer {
-    background-color: DodgerBlue;
-    overflow: hidden;
-    font-size: 1rem;
-    margin: 0rem 0% 0rem;
-    color: white;
+    margin: 0;
+    padding: 1.5rem 5% 6rem;
+    background-color: maroon;
 }
 
-footer a {
-    color: white;
+.nav-bottom ul { 
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: .875em;
+    line-height: 1.5rem;
+}
 li {
     font-size: 1rem;
     font-weight: lighter;
     font-family: futura, arial, sans-serif;
-    color: white;
-    padding: 0 12%; 
+    color: black;
+    padding: 0;
+    margin: 0;
 }
