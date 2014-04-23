@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family:Couture, Helvetica, sans-serif
+}
+
+figcaption {
+    background-color: white;
+}
+
+img {
+    overflow: hidden;
+	width: 100%;
+    display: block;
+    border-style: solid;
+    border-color: DodgerBlue;
+    border-bottom-width:.5rem;
+    height: auto;
+}
+
+body {
+    margin:1rem;
+    padding:1rem;
+}
+
+article {
+    margin:0;
+    padding:0 10%;
+    overflow:hidden;
+    font-family: futura, arial, sans-serif;
+    font-weight:normal;
+    font-size:.75rem;
+}
+
+h1 {
+    font-family:'Nexa-XBold', Couture, Coolvetica, Revolution, Futura, Sans-Serif;
+    font-weight:normal;
+    line-height:2.5rem;
+    margin:2rem 0;
+    color: white;
+    font-size: 2.5rem;
+    margin: .5rem 0;
+    line-height: 2.5rem;
+    padding: 0 2.5%;
+    font-kerning:auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A;
+}
+
+.masthead {
+    background-color: DodgerBlue;
+    overflow: hidden;
+}
+
+.logo {
+    height: 14rem;
+    width: auto;
+    margin:2rem 3rem;
+    border-style: none;
+}
+
+article {
+    margin: 0;
+    padding: 0 0%;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: futura, arial, sans-serif;
+    color: white;
+    padding: 0 6%;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 2.5rem;
+    font-family: futura, arial, sans-serif;
+    color: white;
+    padding: 0 6%;
+}
+
+.dropcap:first-letter {
+    font-size:7rem;
+    font-weight:bold;
+    font-family: revolution, courture, helvetica, sans-serif;
+    float:left;
+    margin:2rem .1rem 3rem 0;
+    color:DodgerBlue
+}
+
+details {
+    margin:0 1.5rem 1.5rem;
+    color: white;
+}
+
+h3 {
+   line-height: 1.5rem;
+    margin: 0 0 0rem;
+    font-family: futura, arial, sans-serif;
+    color: DodgerBlue;
+    padding: 0 6%; 
+    text-shadow:.15rem .15rem .05rem rgba(0, 0, 0, .4)
+}
+
+footer {
+    background-color: DodgerBlue;
+    overflow: hidden;
+    font-size: 1rem;
+    margin: 0rem 0% 0rem;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+li {
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: futura, arial, sans-serif;
+    color: white;
+    padding: 0 12%; 
+}
