@@ -42,10 +42,10 @@ html {
 .nav-top a:link,
 .nav-top a:visited {
 	display: inline-block;
-	margin: ;
+	margin: 0;
 	padding: 1rem 10%;
 	color: maroon;
-	font-size: 1.5rem; 
+	font-size: 1.3rem; 
 	text-decoration: none;
 }
 
